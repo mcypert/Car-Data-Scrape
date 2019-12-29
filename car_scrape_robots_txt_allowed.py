@@ -182,5 +182,5 @@ def get_final_df():
         
     return final_df, bad_urls
 
-car_df = get_final_df()
+car_df, bad_urls = get_final_df()
 car_df.to_csv("My Computer Data/car_df.csv")
